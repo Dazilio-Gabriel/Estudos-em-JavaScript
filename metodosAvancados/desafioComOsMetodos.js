@@ -22,4 +22,4 @@ vetorFiltrado.forEach(vetorFiltrado => {
 })
 
 let soma = vetor.reduce((acumu, valor) => acumu + valor, 0);
-console.log(soma)
+console.log(soma);
