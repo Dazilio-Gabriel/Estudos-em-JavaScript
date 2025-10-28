@@ -20,3 +20,6 @@ console.log("vetor filtrado\n")
 vetorFiltrado.forEach(vetorFiltrado => {
     console.log(vetorFiltrado);
 })
+
+let soma = vetor.reduce((acumu, valor) => acumu + valor, 0);
+console.log(soma)
